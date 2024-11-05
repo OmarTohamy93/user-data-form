@@ -1,0 +1,146 @@
+/* universal styling settings*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body styling  */
+body {
+    /* background-color: white; */
+    background-image: url(../user-data-form/images/texture-3-bg.jpg);
+
+}
+
+/* main form styling */
+main {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #1B1B32;
+    height: 1000px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+/* header styling */
+header {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+header h1 {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+/* styling from */
+/* styilng form labels */
+form label {
+    color: whitesmoke;
+    width: 100%;
+    display: block;
+    margin: 5px 10px;
+    padding-left: 10px;
+}
+
+/* styilng form inputs */
+form input {
+    width: 90%;
+    padding: 5px;
+    margin: 0px 15px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #0A0A23;
+    border: 1px solid #1B1B32;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+/* styling hr */
+hr {
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+/* styling field set */
+fieldset {
+    margin: 5px 15px;
+    width: 90%;
+    padding: 10px;
+    color: white;
+    border: none;
+
+}
+
+.inline-style {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+fieldset label,
+.checkbox-label {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* styling select dropout menu  */
+select {
+    width: 90%;
+    padding: 5px;
+    margin: 0px 15px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #0A0A23;
+    border: 1px solid #1B1B32;
+    border-radius: 5px;
+}
+
+/* styling bio text area */
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 0px 15px;
+    font-size: 15px;
+    color: white;
+    background-color: #0A0A23;
+    border: 1px solid #1B1B32;
+    border-radius: 5px;
+}
+::placeholder{
+    color: antiquewhite;
+}
+
+/* styling checkbox  link label */
+
+.checkbox-label a {
+    color: aliceblue;
+}
+
+.checkbox-label a:hover {
+    background-color: #494987;
+    border-radius: 3px;
+}
+
+/* styling submit button */
+.submit-button{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
